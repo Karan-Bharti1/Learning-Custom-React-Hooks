@@ -3,7 +3,7 @@ import './App.css'
 import { useLogger } from './useLogger'
 import { useCounter } from './useCounter'
 function App() {
-const {counter,incrementCounter,decrementCounter}=useCounter()
+const {counter,incrementCounter,decrementCounter}=useCounter(10)
 useLogger(counter)
   return (
     <>
